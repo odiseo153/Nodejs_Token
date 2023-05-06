@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-curso",
+  "version": "1.0.0",
+  "description": "un curso de node",
+  "main": "main.js",
+  "scripts": {
+    "start": "npx nodemon main.js"
+  },
+  "keywords": [
+    "odiseo",
+    "curso",
+    "node"
+  ],
+  "author": "odiseo",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongodb": "^5.4.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "tedious": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "typescript": "^5.0.4"
+  }
+}
